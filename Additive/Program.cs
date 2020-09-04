@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
-using static Additive.Additive.Logging;
+using static Additive.Logging;
 
 namespace Additive
 {

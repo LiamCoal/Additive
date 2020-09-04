@@ -70,10 +70,10 @@ namespace Additive
 
         private void Append()
         {
-            Additive.Logging.LineText = $"Resources: {_addonName}: Appending to global...";
+            Logging.LineText = $"Resources: {_addonName}: Appending to global...";
             foreach (var (key, value) in _objects)
             {
-                Additive.Logging.LineText = $"Resources: {_addonName}: Appending to global... {_objects.Count - new List<string?>(_objects.Keys).IndexOf(key)} object left";
+                Logging.LineText = $"Resources: {_addonName}: Appending to global... {_objects.Count - new List<string?>(_objects.Keys).IndexOf(key)} object left";
                 if(_globalObjects.ContainsKey(key))
                     throw new ResourceConflictException($"Conflicting resource: {key} [original provider: {_globalObjects[key].Trace}, duplicate provider: {_addonName}]");
                 _globalObjects[key] = new Traceable<object?, string> {Value = value, Trace = _addonName};

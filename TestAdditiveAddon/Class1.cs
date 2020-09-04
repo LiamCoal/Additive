@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data;
 using Additive;
-using static Additive.Additive.Logging;
+using static Additive.Logging;
 
 namespace TestAdditiveAddon
 {
