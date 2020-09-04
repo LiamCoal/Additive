@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Additive", "Additive\Additi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAdditiveAddon", "TestAdditiveAddon\TestAdditiveAddon.csproj", "{597A07F5-398D-4FA5-90D2-C6156DBA108E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdditiveMonogame", "AdditiveMonogame\AdditiveMonogame.csproj", "{0C3E218A-EBA9-4FCD-8E84-4BC26AF2018C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{597A07F5-398D-4FA5-90D2-C6156DBA108E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{597A07F5-398D-4FA5-90D2-C6156DBA108E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{597A07F5-398D-4FA5-90D2-C6156DBA108E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C3E218A-EBA9-4FCD-8E84-4BC26AF2018C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C3E218A-EBA9-4FCD-8E84-4BC26AF2018C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C3E218A-EBA9-4FCD-8E84-4BC26AF2018C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C3E218A-EBA9-4FCD-8E84-4BC26AF2018C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
